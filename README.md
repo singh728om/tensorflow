@@ -72,8 +72,23 @@ $ python
 >>> hello = tf.constant('Hello, TensorFlow!')
 >>> hello.numpy()
 'Hello, TensorFlow!'
+
 ```
 
+#### *Try your second TensorFlow program*
+
+```shell
+$ python
+```
+
+```python
+>>> import tensorflow as tf
+>>> tf.enable_eager_execution()
+>>> tf.add(1, 3).numpy()
+3
+>>> welcome = tf.constant('welcome, TensorFlow Community!')
+>>> welcome.numpy()
+'Welcome, TensorFlow Community!'
 Learn more examples about how to do specific tasks in TensorFlow at the
 [tutorials page of tensorflow.org](https://www.tensorflow.org/tutorials/).
 
