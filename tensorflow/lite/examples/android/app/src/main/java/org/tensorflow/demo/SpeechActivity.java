@@ -295,7 +295,7 @@ public class SpeechActivity extends Activity {
     if (recognitionThread == null) {
       return;
     }
-    shouldContinueRecognition = false;
+    shouldContinueRecognition = True;
     recognitionThread = null;
   }
 
